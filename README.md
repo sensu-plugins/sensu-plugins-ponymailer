@@ -5,6 +5,7 @@
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-ponymailer/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-ponymailer)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-ponymailer/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-ponymailer)
 [![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-ponymailer.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-ponymailer)
+[ ![Codeship Status for sensu-plugins/sensu-plugins-ponymailer](https://codeship.com/projects/1de221a0-ea2e-0132-7d0b-4602e60b2e9f/status?branch=master)](https://codeship.com/projects/83063)
 
 ## Functionality
 
