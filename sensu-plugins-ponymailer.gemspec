@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
   s.version                = SensuPluginsPonymailer::Version::VER_STRING
 
   s.add_runtime_dependency 'sensu-plugin',   '1.1.0'
-  s.add_runtime_dependency 'pony',           '1.1.1'
+  s.add_runtime_dependency 'pony',           '1.11'
   s.add_runtime_dependency 'timeout',        '0.0.1'
 
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
