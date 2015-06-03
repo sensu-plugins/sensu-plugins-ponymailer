@@ -29,7 +29,7 @@ class PonyMailer < Sensu::Handler
     @event['action'].eql?('resolve') ? 'RESOLVED' : 'ALERT'
   end
 
-  def handle
+  def handle # rubocop:disable all
     mail_options = {
       subject: "Sensu Monitoring Alert: #{action_to_string} :: #{short_name}",
       from: "#{settings['ponymailer']['fromname']} <#{settings['ponymailer']['from']}>",
