@@ -44,13 +44,13 @@ class PonyMailer < Sensu::Handler
       sender: settings['ponymailer']['from']
     }
     mail_options.merge!(via_options: {
-                           address: settings['ponymailer']['hostname'],
-                           port: settings['ponymailer']['port'],
-                           enable_starttls_auto: settings['ponymailer']['tls'],
-                           user_name: settings['ponymailer']['username'],
-                           password: settings['ponymailer']['password'],
-                           authentication: :plain
-                         }) if settings['ponymailer']['authenticate']
+                          address: settings['ponymailer']['hostname'],
+                          port: settings['ponymailer']['port'],
+                          enable_starttls_auto: settings['ponymailer']['tls'],
+                          user_name: settings['ponymailer']['username'],
+                          password: settings['ponymailer']['password'],
+                          authentication: :plain
+                        }) if settings['ponymailer']['authenticate']
 
     mail_options[:body] = %(Sensu has detected a failed check. Event analysis follows:
 
