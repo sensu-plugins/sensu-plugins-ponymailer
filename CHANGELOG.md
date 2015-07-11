@@ -6,9 +6,16 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ## Unreleased][unreleased]
 
 ## [0.0.2] - [2015-07-10]
+
+### Changed
+- set deps in alpha order in `Rakefile`
+- set deps in alpha order in gemspec
+- update documentation links in README and CONTRIBUTING
+
 ### Fixed
 - fix typo in handler-ponymailer.rb
 - fix undefined method `arguments`
+- set binstubs to only be created for ruby files
 
 ## [0.0.1] - [2015-06-02]
 ### Added
