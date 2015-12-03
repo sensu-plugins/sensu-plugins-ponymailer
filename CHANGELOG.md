@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## Unreleased
+
+## [0.0.4] - 2015-12-03
 ## Removed
 - Removed timeout gem dependency that was conflicting with stdlib
 
