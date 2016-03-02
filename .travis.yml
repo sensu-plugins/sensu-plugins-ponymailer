@@ -1,19 +1,31 @@
 language: ruby
 cache:
-  - bundler
+- bundler
 install:
-  - bundle install
+- bundle install
 rvm:
-  - 1.9.3
-  - 2.0
-  - 2.1
-  - 2.2
+- 1.9.3
+- 2.0
+- 2.1
+- 2.2
 notifications:
   email:
     recipients:
-      - sensu-plugin@sensu-plugins.io
+    - sensu-plugin@sensu-plugins.io
     on_success: change
     on_failure: always
-
 script:
-  - 'bundle exec rake default'
+- bundle exec rake default
+deploy:
+  provider: rubygems
+  api_key:
+    secure: tz4EtPsOPkAJLfy78i0qM6rS5IZIcliGKnwl6DB6Wjau1p89gIaJB8Iq17rQ/1vVcFk93wiMyYdNS4kkkednka1foDv9OksEeBIV13k3ZF7BXlB6Y6y8FVziDSxbXCcR6Pie1BIVPgrOe/9YdSlGLgFG3aBp+q4406gb5a10uTg=
+  gem: sensu-plugins-ponymailer
+  on:
+    tags: true
+    all_branches: true
+    rvm: 1.9.3
+    rvm: 2.0
+    rvm: 2.1
+    rvm: 2.2
+    repo: sensu-plugins/sensu-plugins-ponymailer
