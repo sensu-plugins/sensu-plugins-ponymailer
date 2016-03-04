@@ -17,7 +17,6 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 - updated sensu-plugin gem to 1.2.0
 
 ## [0.0.2] - [2015-07-10]
-
 ### Changed
 - set deps in alpha order in `Rakefile`
 - set deps in alpha order in gemspec
@@ -28,7 +27,11 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 - fix undefined method `arguments`
 - set binstubs to only be created for ruby files
 
-## [0.0.1] - [2015-06-02]
+## 0.0.1 - [2015-06-02]
 ### Added
 - initial release
 
+[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-iis/compare/0.0.4...HEAD
+[0.0.4]: https://github.com/sensu-plugins/sensu-plugins-iis/compare/0.0.3...0.0.4
+[0.0.3]: https://github.com/sensu-plugins/sensu-plugins-iis/compare/0.0.2...0.0.3
+[0.0.2]: https://github.com/sensu-plugins/sensu-plugins-iis/compare/0.0.1...0.0.2

@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-ponymailer.gemspec
+- gem install sensu-plugins-ponymailer-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: tz4EtPsOPkAJLfy78i0qM6rS5IZIcliGKnwl6DB6Wjau1p89gIaJB8Iq17rQ/1vVcFk93wiMyYdNS4kkkednka1foDv9OksEeBIV13k3ZF7BXlB6Y6y8FVziDSxbXCcR6Pie1BIVPgrOe/9YdSlGLgFG3aBp+q4406gb5a10uTg=
+    secure: Uaf0z4HfeYWC/Ld4IErUv0Ah8YrVKNO7xF3jsJ76thV48sSWkxzE6SP76FCc8zODLRh/J9QA0QpeGZkkywqMbjfouZDUw2sAtDV79Si5DxhWKxz5MR+67xwLXDX6o+K80RIHPCUNfaMC14Tf5WpyTZQUmr0o1K3Ne3Bb07wIkiQ=
   gem: sensu-plugins-ponymailer
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
