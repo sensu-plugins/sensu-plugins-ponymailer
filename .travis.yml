@@ -24,7 +24,7 @@ deploy:
     secure: Uaf0z4HfeYWC/Ld4IErUv0Ah8YrVKNO7xF3jsJ76thV48sSWkxzE6SP76FCc8zODLRh/J9QA0QpeGZkkywqMbjfouZDUw2sAtDV79Si5DxhWKxz5MR+67xwLXDX6o+K80RIHPCUNfaMC14Tf5WpyTZQUmr0o1K3Ne3Bb07wIkiQ=
   gem: sensu-plugins-ponymailer
   on:
-    ags: true
+    tags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
