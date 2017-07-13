@@ -9,6 +9,7 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 
 ### Added
 - Ruby 2.3 support
+- Ruby 2.4.1 testing
 
 ## [0.0.4] - 2015-12-03
 ## Removed
