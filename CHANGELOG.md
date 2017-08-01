@@ -4,18 +4,22 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachangelog.com/)
 
 ## [Unreleased]
-### Removed
-- Ruby 1.9.3 support
+### Breaking Change
+- Remove Ruby 1.9.3 support (@eheydrick)
 
 ### Added
-- Ruby 2.3 support
-- Ruby 2.4.1 testing
+- Ruby 2.3 support (@eheydrick)
+- Ruby 2.4.1 testing (@Evesy)
+
+### Changed
+- Rubocop update and cleanup
+- Relax `sensu-plugin` dependency to `~> 1.2` (@eheydrick)
 
 ## [0.0.4] - 2015-12-03
-## Removed
+### Removed
 - Removed timeout gem dependency that was conflicting with stdlib
 
-## Changed
+### Changed
 - Updated to rubocop 0.32.1
 
 ## [0.0.3] - 2015-07-14

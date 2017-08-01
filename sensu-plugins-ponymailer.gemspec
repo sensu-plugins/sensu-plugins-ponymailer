@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.files                  = Dir.glob('{bin,lib}/**/*') + %w(LICENSE README.md CHANGELOG.md)
   s.homepage               = 'https://github.com/sensu-plugins/sensu-plugins-ponymailer'
   s.license                = 'MIT'
-  s.metadata               = { 'maintainer'         => '',
+  s.metadata               = { 'maintainer'         => 'sensu-plugin',
                                'development_status' => 'active',
                                'production_status'  => 'unstable - testing recommended',
                                'release_draft'      => 'false',
@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.version                = SensuPluginsPonymailer::Version::VER_STRING
 
   s.add_runtime_dependency 'pony',           '1.11'
-  s.add_runtime_dependency 'sensu-plugin',   '1.2.0'
+  s.add_runtime_dependency 'sensu-plugin',   '~> 1.2'
 
   s.add_development_dependency 'bundler',                   '~> 1.7'
   s.add_development_dependency 'codeclimate-test-reporter', '~> 0.4'
